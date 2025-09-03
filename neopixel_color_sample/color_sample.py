@@ -7,22 +7,23 @@ import _thread
 PIN_CONFIG = {
     "LED_PIN": 17,       # WS2812B接続GPIO番号
     "BUTTON_PIN": 15,    # タクトスイッチ接続GPIO番号
-    "NUM_LEDS": 7,      # LEDの数
+    "NUM_LEDS": 4,      # LEDの数
 }
 
 # 色の定義
 COLORS = {
-    "RED": (255, 0, 0),    
-    "GREEN": (0, 255, 0),  
-    "BLUE": (0, 0, 255),
-    "YELLOW": (255, 255, 0),
-    "CYAN": (0, 255, 255),
-    "MAGENTA": (255, 0, 255),
+    "RED": (128, 0, 0),    
+    "GREEN": (0, 128, 0),  
+    "BLUE": (0, 0, 128),
+    "YELLOW": (128, 128, 0),
+    "CYAN": (0, 128, 128),
+    "MAGENTA": (128, 0, 128),
+    "WHITE": (128, 128, 128),
     "OFF": (0, 0, 0)      # 消灯
 }
 
 # 色の順序リスト
-COLOR_SEQUENCE = ["RED", "GREEN", "BLUE", "YELLOW", "CYAN", "MAGENTA", "OFF"]
+COLOR_SEQUENCE = ["RED", "GREEN", "BLUE", "YELLOW", "CYAN", "MAGENTA", "WHITE", "OFF"]
 
 class WS2812BController:
     def __init__(self):
