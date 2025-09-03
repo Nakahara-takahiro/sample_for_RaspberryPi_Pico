@@ -7,9 +7,9 @@ RaspberryPi Pico用のサンプルプログラム
 * RaspberryPi PicoをMicroPythonで動かす前提です。
 
 # サンプルプログラムの説明
-タイトル | 説明
------------------
-neopixel_color_sample | 色の三原色を説明するために、WS2812Bで動かしながら説明するプログラム
+| タイトル | 説明 |
+|---------|--------|
+|neopixel_color_sample | 色の三原色を説明するために、WS2812Bで動かしながら説明するプログラム |
 
 # ライセンス
 ライセンスについてはLICENSE参照のこと
