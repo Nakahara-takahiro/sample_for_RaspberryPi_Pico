@@ -205,3 +205,18 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ===== 光都ICTクラブ 追加ルール =====
+# Python標準テンプレートの lib/ 除外を打ち消す
+# （MicroPython のライブラリ置き場として使うため）
+!lib/
+!lib/**
+
+# アーカイブ・回路プロジェクト
+*.zip
+*.eprj2
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
